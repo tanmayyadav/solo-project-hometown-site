@@ -1,0 +1,71 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Silkscreen,Helvetica, Arial, sans-serif;
+}
+img {
+    width: 100px;
+}
+.main{
+    background: url("https://images.unsplash.com/photo-1562979314-bee7453e911c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+#maintext1{
+        background: #F4E285;
+        padding: 3px 5px;
+    }
+#maintext2{
+        margin-top: 0px;
+        background: #F4A259;
+        padding: 3px 5px;
+    }
+.activity{
+    display: flex;
+    flex-direction: row;
+    background: #FFFFD1;
+    justify-content: space-around;
+    margin-top:-10px;
+    padding: 0 10px;
+}
+#actitle {
+    margin-top: 0px;
+    background: #FFFFD1;
+    margin-bottom: 10px;
+    padding:  10px 0px 20px 0px;
+}
+
+.actimg {
+    border-radius: 50%;
+    height: 100px;
+}
+.guide
+{
+    width: 400px;
+     margin: 0 auto;
+   display: flex;
+   background: #A8DADC;
+   justify-content: space-around;
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+}
+#guideimg{
+    width: 150px;
+    margin-right: 20px;
+}
+
